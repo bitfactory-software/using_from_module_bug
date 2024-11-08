@@ -33,5 +33,6 @@ Ouput produced:
 OK: class library_namespace::declare<void const * __ptr64 __cdecl(void const * __ptr64,class type_info const & __ptr64)>
 ERROR:class library_namespace::declare<void const * __ptr64 __cdecl(void * __ptr64,class type_info const & __ptr64)>
 ```
+You see, the *const* for the first parameter is lost in the module version.
 
 
